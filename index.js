@@ -1,0 +1,20 @@
+module.exports = {
+  parser: "babel-eslint",
+  extends: "airbnb",
+  rules: {
+    "arrow-body-style": "off",
+    "import/extensions": ["error", "always", { "ignorePackages": true }],
+    "jsx-a11y/label-has-for": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }],
+    "no-prototype-builtins": "off",
+    "no-use-before-define": "off",
+    "object-curly-newline": "off",
+    "prefer-destructuring": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off"
+  }
+}
