@@ -1,6 +1,6 @@
 {
   "name": "@ahuth/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Personal ESLint config",
   "main": "index.js",
   "repository": "https://github.com/ahuth/eslint-config.git",
